@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: #222222;
+}
+
+.header-container {
+  background-color: #57a3d5;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+}
+
+.home-button {
+  color: black;
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  align-items: left;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.flashcard-container {
+  background-color: white;
+  width: 50vw;
+  height: 40vh;
+  margin: 0;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.card-counter {
+  font-size: 30px;
+  font-weight: bold;
+  /* margin-left:690px; */
+  position: absolute;
+  right: 20px;
+}
+
+h1{
+  text-decoration: underline #57a3d5;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h3 span{
+  font-weight: bold;
+}
+
+.button-container {
+  width: 54vw;
+  height: 50px;
+  position: absolute;
+  margin: 0;
+  margin-top: 255px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-buttons{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.previous {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.edit{
+  border: none;
+  background-color: #57a3d5;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete{
+  border: none;
+  background-color: #57a3d5;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  outline: none;
+  cursor: pointer;
+}
+
+.new{
+  border: none;
+  background-color: #57a3d5;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  width:80px;
+  outline: none;
+  cursor: pointer;
+}
+
+.next{
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
